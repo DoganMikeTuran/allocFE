@@ -72,7 +72,7 @@ class ApiFacade {
       "Content-Type": "application/json"
     };
     return new Promise((resolve, reject) => {
-      fetch("https://localhost:5001/api/login", {
+      fetch("https://remnzallocation.azurewebsites.net/api/login", {
         method: "POST",
         headers: headers,
         body: JSON.stringify({
